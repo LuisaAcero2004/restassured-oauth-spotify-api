@@ -26,7 +26,6 @@ This project is an example of how to use OAuth2.0 authentication in REST-Assured
 
 #### Client id and Client secret
 To create a new Client ID and Client Secret go to [Spotify Applications Dashboard](https://developer.spotify.com/dashboard/applications), create a new app and copy from the App Description the Client ID and Client Secret.
-![img.png](readme/img.png)
 
 #### Properties file
 Before executing the code, add a properties file named `properties.properties` in [src/test/resources](src/test/resources) following this structure:
