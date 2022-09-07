@@ -2,7 +2,9 @@
 This project is an example of how to use OAuth2.0 authentication in REST-Assured
 
 ## Description
+This project was created to test the creation of new playlists and the addition of tracks to existing playlists in Spotify through the API using REST-Assured.
 
+Spotify implements the OAuth 2.0 authorization framework and has three authentication flows, this project uses the [***Authorization Code Flow***](https://developer.spotify.com/documentation/general/guides/authorization/code-flow/).
 
 ## Directory Structure
 ``` 
@@ -19,7 +21,6 @@ This project is an example of how to use OAuth2.0 authentication in REST-Assured
             └───drivers 
     
 ```
-
 ## Code Execution
 
 ### Authentication Information
@@ -38,6 +39,7 @@ username={your spotify username/email}
 password={your spotify password}
 ``` 
 ### Execution
+
 ```
 mvn clean verify 
 ``` 
